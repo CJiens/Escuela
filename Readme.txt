@@ -6,8 +6,8 @@ Información del Proyecto
 Tecnologías utilizadas
 
 Frontend Framework
-React 19.2.4** - Biblioteca principal
-React Router DOM 7.14.0** - Navegación y rutas
+React 19.2.4 - Biblioteca principal
+React Router DOM 7.14.0 - Navegación y rutas
 
 Estilos
 TailwindCSS 4.2.2 - Framework CSS utilitario
