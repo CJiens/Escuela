@@ -1,14 +1,16 @@
 import Navbar from "./components/Nav/Nav.tsx";
 import Header from "./components/Header/Header.tsx";
 import Rout from "./routes/routes.tsx";
+import { UsuarioProvider } from "./Hooks/useContext.tsx";
 
 function App() {
   return (
-    <div>
+    <UsuarioProvider>
       <Navbar />
       <Header />
       <Rout />
-    </div>
+    </UsuarioProvider>
   );
 }
+
 export default App;

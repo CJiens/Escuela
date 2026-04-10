@@ -27,6 +27,18 @@ function Navbar() {
       >
         Tarea3
       </NavLink>
+      <NavLink
+        className="text-indigo-800 hover:text-indigo-600 font-medium"
+        to="/Tarea4"
+      >
+        Tarea4
+      </NavLink>
+      <NavLink
+        className="text-indigo-800 hover:text-indigo-600 font-medium"
+        to="/Tarea5"
+      >
+        Tarea5
+      </NavLink>
     </nav>
   );
 }

@@ -1,7 +1,14 @@
+import { useContext } from "react";
+import { UsuarioContext } from "../../Hooks/useContext";
 
 function Home() {
-  const info: string = "Hola Mundo";
-  return <h1 className="text-center text-5xl italic">{info}</h1>;
+  const { usuario } = useContext(UsuarioContext);
+
+  return (
+    <h1 className="text-center text-5xl italic">
+      {usuario == "" ? "Hola Mundo" : usuario}
+    </h1>
+  );
 }
 
 export default Home;

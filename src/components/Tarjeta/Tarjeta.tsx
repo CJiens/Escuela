@@ -3,7 +3,7 @@ import type { userInterface } from "../../interfaces/userInterface";
 function Tarjeta(tarjeta: userInterface) {
   return (
     <div
-        className={`m-2.5  shadow-gray-500 hover:scale-150 transition duration-500 shadow-lg rounded-lg  w-96 h-60 flex flex-col justify-center ${tarjeta.activo ? "bg-white" : "bg-gray-400"}`}
+      className={`m-2.5  shadow-gray-500 hover:scale-150 transition duration-500 shadow-lg rounded-lg  w-96 h-60 flex flex-col justify-center ${tarjeta.activo ? "bg-white" : "bg-gray-400"}`}
     >
       <div className="flex flex-row items-center">
         <img
